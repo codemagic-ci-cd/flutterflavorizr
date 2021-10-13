@@ -27,6 +27,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  flutter_flavorizr: ^2.0.0
   flutter:
     sdk: flutter
 
@@ -87,3 +88,28 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+flavorizr:
+  app:
+    android:
+      flavorDimensions: "flavor-type"
+    ios:
+
+  flavors:
+    dev:
+      app:
+        name: "Flavorizr Dev"
+
+      android:
+        applicationId: "io.codemagic.flavorizr.dev"
+
+      ios:
+        bundleId: "io.codemagic.flavorizr.dev"
+
+    prod:
+      app:
+        name: "Flavorizr Prod"
+
+      android:
+        applicationId: "io.codemagic.flavorizr.prod"
+      ios:
+        bundleId: "io.codemagic.flavorizr.prod"
