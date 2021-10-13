@@ -18,7 +18,7 @@ workflows:
         XCODE_CONFIG: Release-dev
         XCODE_SCHEME: dev
         BUNDLE_ID: io.codemagic.flavorizr.dev
-        ENTRY_POINT: lib/main_dev.dart
+        ENTRY_POINT: lib/main-dev.dart
       flutter: 2.5.2
       xcode: 12.5
       cocoapods: default
