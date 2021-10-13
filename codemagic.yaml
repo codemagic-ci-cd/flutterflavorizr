@@ -67,7 +67,7 @@ workflows:
       - /tmp/xcodebuild_logs/*.log
       - flutter_drive.log
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
-    publishing:
+    # publishing:
       # email: 
       #   recipients:
       #     - user_1@example.com
