@@ -84,7 +84,7 @@ workflows:
           # APP_STORE_CONNECT_ISSUER_ID <-- Put your App Store Connect Issuer Id here 
           # APP_STORE_CONNECT_KEY_IDENTIFIER <-- Put your App Store Connect Key Identifier here 
           # APP_STORE_CONNECT_PRIVATE_KEY <-- Put your App Store Connect Private Key here
-        # - certificate_credentials # <-- (Includes CERTIFICATE_PRIVATE_KEY - Put your Certificate Private Key here)
+          # CERTIFICATE_PRIVATE_KEY <-- Put your Certificate Private Key here
       vars:
         XCODE_WORKSPACE: "ios/Runner.xcworkspace" # <-- Put your encrypted Certificate Private Key here
         # Environment variable values provided when triggering build with Codemagic API. Alternatively add the required values below.
@@ -147,3 +147,4 @@ workflows:
         api_key: $APP_STORE_CONNECT_PRIVATE_KEY         # Contents of the API key, can also reference environment variable such as $APP_STORE_CONNECT_PRIVATE_KEY
         key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER       # Alphanumeric value that identifies the API key, can also reference environment variable such as $APP_STORE_CONNECT_KEY_IDENTIFIER
         issuer_id: $APP_STORE_CONNECT_ISSUER_ID         # Alphanumeric value that identifies who created the API key, can also reference environment variable such as $APP_STORE_CONNECT_ISSUER_ID
+        submit_to_testflight: false   
