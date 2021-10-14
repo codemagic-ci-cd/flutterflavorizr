@@ -282,7 +282,8 @@
 		0A1D5D3C2717591B004B3EC8 /* Debug-prod */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = X8NNQ9CYL2;
+				DEVELOPMENT_TEAM = Z3BFA7A6ZR;
+				PRODUCT_BUNDLE_IDENTIFIER = io.codemagic.flavorizr;
 				PRODUCT_NAME = Runner;
 			};
 			name = "Debug-prod";
@@ -290,7 +291,8 @@
 		0A1D5D3D2717591B004B3EC8 /* Profile-prod */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = X8NNQ9CYL2;
+				DEVELOPMENT_TEAM = Z3BFA7A6ZR;
+				PRODUCT_BUNDLE_IDENTIFIER = io.codemagic.flavorizr;
 				PRODUCT_NAME = Runner;
 			};
 			name = "Profile-prod";
@@ -298,7 +300,8 @@
 		0A1D5D3E2717591B004B3EC8 /* Release-prod */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = X8NNQ9CYL2;
+				DEVELOPMENT_TEAM = Z3BFA7A6ZR;
+				PRODUCT_BUNDLE_IDENTIFIER = io.codemagic.flavorizr;
 				PRODUCT_NAME = Runner;
 			};
 			name = "Release-prod";
