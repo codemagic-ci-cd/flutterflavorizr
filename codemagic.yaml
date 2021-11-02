@@ -48,7 +48,7 @@ workflows:
           keychain add-certificates
       - name: Set up code signing settings on Xcode project
         script: |
-          xcode-project use-profiles --project=$FCI_BUILD_DIR/ios/Runner.xcodeproj
+          xcode-project use-profiles
       - name: Flutter build ipa and automatic versioning
         script: |
           flutter build ipa --release \
